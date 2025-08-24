@@ -10,7 +10,6 @@ public class UserValidator {
 //    Длина от 3 до 30 символов
 //    Только буквы, цифры и подчёркивания (регулярка: ^[a-zA-Z0-9_]+$)
 //    При нарушении — выбрасывать ValidationException
-//    Поиск с фильтрацией
 
     public static void validate(String username) {
         if (username == null || username.isBlank())
