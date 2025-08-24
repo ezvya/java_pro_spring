@@ -1,6 +1,5 @@
 package java_pro_spring.homework_4.service;
 
-import java_pro_spring.homework_4.exceptions.UserValidationException;
 import java_pro_spring.homework_4.dao.UserDao;
 import java_pro_spring.homework_4.model.User;
 

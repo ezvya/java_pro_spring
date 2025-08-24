@@ -4,7 +4,6 @@ import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import java_pro_spring.homework_4.dao.UserDao;
 import java_pro_spring.homework_4.service.UserService;
-import java_pro_spring.homework_4.service.UserValidator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
