@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:16
+    container_name: java_pro
+    environment:
+      POSTGRES_DB: users
+      POSTGRES_USER: ezvya
+      POSTGRES_PASSWORD: ezvya2248
+    ports:
+      - '5432:5432'
